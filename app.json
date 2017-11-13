@@ -1,0 +1,44 @@
+{
+  "pages": [
+   "pages/wxml/wxml",
+    "pages/index/index",
+    "pages/event/event"
+   
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Tianyuan.net",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#ededed"
+  },
+  "tabBar": {
+    "color": "rgb(0,0,0,0.6)",
+    "selectedColor": "#000000",
+    "borderStyle": "white",
+    "backgroundcolor": "#ededed",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "assets/icons/home.png",
+        "selectedIconPath": "assets/icons/home-active.png"
+      },
+      {
+        "text": "视图",
+        "pagePath": "pages/wxml/wxml",
+        "iconPath": "assets/icons/web.png",
+        "selectedIconPath": "assets/icons/web-active.png"
+      },
+      {
+        "text": "活动",
+        "pagePath": "pages/event/event",
+        "iconPath": "assets/icons/event.png",
+        "selectedIconPath": "assets/icons/event-active.png"
+      }
+    ]
+  },
+  "debug": true
+}

@@ -1,0 +1,68 @@
+/* pages/wxml/wxml.js.wxss */
+
+input,textarea{
+  padding:8px;
+  background: #ffffff;
+  margin: 1px;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  width:auto;
+}
+
+movable-area{
+  width: 100vw;
+  height: 50vh;
+  background: #ededed;
+}
+
+movable-view{
+  width: 80px;
+  height: 80px;
+  background: #6435c9;
+}
+
+
+image,.image{
+width: 100%;
+
+}
+
+.button{
+  margin: 8px;
+}
+
+
+
+
+.red{
+  background: #db2828;
+
+}
+.pink{
+  background: #f9a4a8;
+  
+}
+.blue{
+  background: #2185d0;
+  
+}
+.lighten{
+  opacity: 0.85;
+}
+.view-container{
+  display:flex;
+  flex-direction: column;
+  justify-content:space-around;
+  height:100vh;
+}
+.view-container view{
+  width:100%;
+  height:100%
+}
+
+.view-container text{
+  color:#ffffff;
+  padding:16px;
+  display:block;
+  font-size:32px;
+}
