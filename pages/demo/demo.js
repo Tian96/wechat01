@@ -1,72 +1,18 @@
-// pages/wxml/wxml.js.js
+// pages/demo/demo.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-markers:[
-  {
-    id:0,
-    longitude:117.0311013,
-    latitude:36.662447,
-    iconPath:'/assets/icons/pin.png',
-    width:20,
-    height:40,
-    callout:{
-     content:'黑虎泉',
-     fontSize:22,
-     color:'#000',
-     padding:8,
-     bgColor:'#ffffff',
-     borderRadius:4,
-     boxShadow:'4px 8px 16px 0 rgba(0,0,0,0.18)'
-
-    }
-  }
-]
-
-
-},
-
-play(event){
-  console.log(event)
-},
-pause(event) {
-  console.log(event)
-},
-ended(event) {
-  console.log(event)
-},
-
-formSubmit(event){
-console.log(event.detail.value)
-},
-
-inputHandler(event) {
-  this.setSata({
-    pick:event.detail.value
-  })
-  console.log(event.detail.value)
-},
-
-setScrollView(event){
-  this.setData({
-    currentView:event.target.dataset.view
-  })
-},
-
-
-
-  tapHandler(event){
-    console.log(event)
+  
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-  
+    console.log(options)
   },
 
   /**

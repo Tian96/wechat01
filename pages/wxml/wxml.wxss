@@ -1,6 +1,13 @@
 /* pages/wxml/wxml.js.wxss */
 
-input,textarea{
+
+map{
+  width: 100vw;
+  height: 500vw;
+}
+
+
+input,textarea ,picker{
   padding:8px;
   background: #ffffff;
   margin: 1px;

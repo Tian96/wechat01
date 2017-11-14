@@ -2,36 +2,9 @@
 
 
 
-<view class="container vertical centered">
-<view>
-<form bindsubmit="formSubmit">
-
-<!--checkbox-group name="checkbox"     bindchange="inputHandler" 
->
-<lable wx:for="{{items}}" wx:key="key">
-<text>{{item.name}}</text>
-<checkbox value="{{item.value}}"/>
-</lable>
-</checkbox-group> -->
-
-
-<radio-group name="radio"     bindchange="inputHandler" 
->
-<lable wx:for="{{items}}" wx:key="key">
-<text>{{item.name}}</text>
-<radio value="{{item.value}}"/>
-</lable>
-</radio-group>
-
-
-
-<button form-type="submit">提交</button>
-</form>
-
-</view>
-
-
-</view>
-<view class="image">
-<image src="/assets/images/landscape.png"></image>
-</view>
+<map 
+longitude="117.0311013"
+latitude="36.662447"
+scale="16"
+markers="{{markers}}"
+/>
